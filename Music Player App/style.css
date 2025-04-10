@@ -1,0 +1,36 @@
+body{
+    background:linear-gradient(to right, rgb(31, 14, 94), rgb(74, 13, 117));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.music-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 50px;
+}
+
+.music-card{
+    background-color: goldenrod;
+    width: 20%;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.music-foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.music-foot button{
+    cursor: pointer;
+    width: 80px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
